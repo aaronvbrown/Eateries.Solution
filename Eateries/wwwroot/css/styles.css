@@ -7,6 +7,32 @@ div {
   font-size: 12px;
 }
 
+h1 {
+  text-align: center;
+  margin: 2%;
+}
+
+.links{
+  text-align: center;
+}
+
+li:hover {
+  outline-style: inset;
+  outline-color: grey;
+}
+
+ul {
+  list-style-position: outside;
+  text-align: start;
+  margin: auto;
+  width: 100%;
+}
+
+li {
+  text-align: center;
+  width: 40%;
+}
+
 #footer-image {
   margin: 1% 2% 1%;
 }

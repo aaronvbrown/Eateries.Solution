@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 
 namespace Eateries.Models
 
@@ -15,6 +16,6 @@ public class Restaurants
   public string Description { get; set; }
   public int CuisineId { get; set; }
   public Cuisine Cuisine { get; set; }
-
-  }
+  public List<RestaurantsTag> JoinEntities { get;}
+ }
 }
